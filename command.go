@@ -252,6 +252,8 @@ func parseCommand(format string, verbose bool) {
 
 					body = string(stdin)
 
+					fmt.Println("READ FROM STDIN!")
+
 				} else {
 
 					// FIXME: Disable required attributes for PATCH requests as the specs are incorrect
